@@ -1,0 +1,41 @@
+{
+  "name": "babel-plugin-import-alias-npm",
+  "version": "0.0.1",
+  "description": "A babel plugin that allows using aliases to reference npm files in ES2015 imports",
+  "license": "MIT",
+  "repository": "mairatma/babel-plugin-import-alias-npm",
+  "author": {
+    "name": "Maira Bello",
+    "email": "maira.araujo@liferay.com"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "npm": ">=3.0.0"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "coverage": "istanbul cover nodeunit -- test/test.js",
+    "lint": "jshint test/test.js index.js",
+    "test": "nodeunit test/test.js"
+  },
+  "keywords": [
+    "alias",
+    "babel",
+    "babel-plugin",
+    "bower",
+    "es2015",
+    "es6"
+  ],
+  "dependencies": {
+    "babel-core": "^6.1.2"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.0",
+    "jshint": "^2.7.0",
+    "nodeunit": "^0.9.1",
+    "sinon": "^1.17.2"
+  }
+}
